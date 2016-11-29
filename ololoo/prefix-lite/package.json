@@ -1,0 +1,89 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "prefix-lite@0.0.2",
+        "scope": null,
+        "escapedName": "prefix-lite",
+        "name": "prefix-lite",
+        "rawSpec": "0.0.2",
+        "spec": "0.0.2",
+        "type": "version"
+      },
+      "/Users/Brandon/Documents/qa"
+    ]
+  ],
+  "_from": "prefix-lite@0.0.2",
+  "_id": "prefix-lite@0.0.2",
+  "_inCache": true,
+  "_location": "/prefix-lite",
+  "_nodeVersion": "5.4.0",
+  "_npmUser": {
+    "name": "namuol",
+    "email": "louis.acresti@gmail.com"
+  },
+  "_npmVersion": "3.3.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "prefix-lite@0.0.2",
+    "scope": null,
+    "escapedName": "prefix-lite",
+    "name": "prefix-lite",
+    "rawSpec": "0.0.2",
+    "spec": "0.0.2",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/prefix-lite/-/prefix-lite-0.0.2.tgz",
+  "_shasum": "6445546949466105be92b529795b672c42981bbb",
+  "_shrinkwrap": null,
+  "_spec": "prefix-lite@0.0.2",
+  "_where": "/Users/Brandon/Documents/qa",
+  "author": {
+    "name": "Louis Acresti",
+    "email": "louis.acresti@gmail.com",
+    "url": "http://namuol.github.io"
+  },
+  "dependencies": {},
+  "description": "prefix your CSS in JS without bloating your bundles",
+  "devDependencies": {
+    "babel": "^5.8.20",
+    "tap-difflet": "^0.3.0",
+    "tape": "^4.0.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "6445546949466105be92b529795b672c42981bbb",
+    "tarball": "https://registry.npmjs.org/prefix-lite/-/prefix-lite-0.0.2.tgz"
+  },
+  "gitHead": "1bc4a9f72a5a079a97f9cdfa592d458dac486095",
+  "keywords": [
+    "prefix",
+    "css",
+    "autoprefix",
+    "lightweight",
+    "lite",
+    "light",
+    "weight",
+    "browser"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "maintainers": [
+    {
+      "name": "namuol",
+      "email": "louis.acresti@gmail.com"
+    }
+  ],
+  "name": "prefix-lite",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "build": "babel src -d lib",
+    "prepublish": "npm run build",
+    "test": "babel-node test | tap-difflet"
+  },
+  "version": "0.0.2"
+}

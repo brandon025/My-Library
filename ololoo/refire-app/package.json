@@ -1,0 +1,108 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "refire-app@2.0.0",
+        "scope": null,
+        "escapedName": "refire-app",
+        "name": "refire-app",
+        "rawSpec": "2.0.0",
+        "spec": "2.0.0",
+        "type": "version"
+      },
+      "/Users/Brandon/Documents/qa"
+    ]
+  ],
+  "_from": "refire-app@2.0.0",
+  "_id": "refire-app@2.0.0",
+  "_inCache": true,
+  "_location": "/refire-app",
+  "_nodeVersion": "4.0.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/refire-app-2.0.0.tgz_1473519179802_0.2778119093272835"
+  },
+  "_npmUser": {
+    "name": "hoppula",
+    "email": "lari@hoppula.com"
+  },
+  "_npmVersion": "2.14.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "refire-app@2.0.0",
+    "scope": null,
+    "escapedName": "refire-app",
+    "name": "refire-app",
+    "rawSpec": "2.0.0",
+    "spec": "2.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/refire-app/-/refire-app-2.0.0.tgz",
+  "_shasum": "b750c47a0eca098f3d31cb9f1f514afd8d9855c1",
+  "_shrinkwrap": null,
+  "_spec": "refire-app@2.0.0",
+  "_where": "/Users/Brandon/Documents/qa",
+  "author": {
+    "name": "Lari Hoppula"
+  },
+  "bugs": {
+    "url": "https://github.com/hoppula/refire-app/issues"
+  },
+  "dependencies": {
+    "hoist-non-react-statics": "^1.0.5",
+    "lodash": "^3.10.1",
+    "react-free-style": "^2.1.1",
+    "react-redux": "^4.4.0",
+    "react-router": "^2.0.0",
+    "react-router-redux-params": "^1.0.0",
+    "redux": "^3.3.1",
+    "redux-thunk": "^2.0.1",
+    "refire": "2.0.0"
+  },
+  "description": "Opinionated wrapper for quick prototyping with React, Redux and Firebase",
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-core": "^6.6.5",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-2": "^6.5.0",
+    "eslint": "^2.3.0",
+    "eslint-plugin-babel": "^3.1.0",
+    "eslint-plugin-import": "^1.0.3",
+    "eslint-plugin-react": "^4.2.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "b750c47a0eca098f3d31cb9f1f514afd8d9855c1",
+    "tarball": "https://registry.npmjs.org/refire-app/-/refire-app-2.0.0.tgz"
+  },
+  "gitHead": "e148731f3833f8da4385140c36261f9cedaf9571",
+  "homepage": "https://github.com/hoppula/refire-app#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "hoppula",
+      "email": "lari@hoppula.com"
+    }
+  ],
+  "name": "refire-app",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0-0",
+    "react-dom": "^0.14.0 || ^15.0.0-0"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoppula/refire-app.git"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "watch": "babel --watch src --out-dir lib"
+  },
+  "version": "2.0.0"
+}
